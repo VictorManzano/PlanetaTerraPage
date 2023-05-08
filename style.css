@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(23130311231085.webp);
+    background-size: cover;
+}
+
+.globe {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url(Mapa-nocturno-mundial-del-Blue-Marble.jpg);
+    background-size: cover;
+    box-shadow: -25px -25px 25px black inset, 10px 10px 30px white inset, 0px 0px 20px ;
+    animation: rotate 35s linear infinite;
+}
+
+@keyframes rotate {
+    to{background-position: 100%;}
+}
+
+
